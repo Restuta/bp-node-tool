@@ -87,7 +87,6 @@
     "no-warning-comments": [1, {
         "terms": ["todo bc", "todo restuta bc"]
       }],
-    "object-curly-spacing": [2, "never"],
     "operator-linebreak": [0, "before"],
     "max-len":[2, 140, 4, {"ignoreComments": true, "ignoreUrls": true}],
     "quote-props": [2, "as-needed", {"keywords": true, "unnecessary": false}],
