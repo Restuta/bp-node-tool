@@ -9,7 +9,8 @@
     "dev": "cross-env NODE_PATH=./lib nodemon index.js --ext js --ignore data/",
     "eslint": "eslint lib/ --ext .js || true",
     "eslint:fix": "eslint lib/ --ext .js --fix || true",
-    "reinstall": "rimraf node_modules && npm i"
+    "reinstall": "rimraf node_modules && rimraf dist && npm i",
+    "build": "rimraf dist && babel lib --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/RCN/ncnca-db-transformer#readme",
   "devDependencies": {
+    "babel-cli": "^6.23.0",
     "babel-core": "^6.9.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-polyfill": "^6.9.0",

@@ -3,9 +3,7 @@
 
 require('babel-register')({
   //see https://babeljs.io/docs/usage/options/#options for more config options
-  babelrc: false,
-  "presets": ["es2017-node7", "stage-2"],
-  "plugins": ["add-module-exports"],
+  babelrc: true
 })
 require('babel-polyfill')
 require('./lib/index');
