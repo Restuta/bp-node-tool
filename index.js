@@ -3,7 +3,18 @@
 
 require('babel-register')({
   //see https://babeljs.io/docs/usage/options/#options for more config options
-  babelrc: true
+  babelrc: false,
+  presets: [
+    [
+      'env',
+      {
+        targets: {
+          node: 'current'
+        }
+      }
+    ],
+    'stage-2',
+  ]
 })
 require('babel-polyfill')
-require('./lib/index');
+require('./lib/index')
