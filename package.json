@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "cross-env NODE_PATH=./lib node index.js",
+    "start": "cross-env NODE_PATH=./lib node ./lib/index.js",
     "dev": "cross-env NODE_PATH=./lib nodemon index.js --ext js --ignore data/",
     "eslint": "eslint lib/ --ext .js || true",
     "eslint:fix": "eslint lib/ --ext .js --fix || true",
