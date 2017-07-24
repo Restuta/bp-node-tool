@@ -2,8 +2,8 @@
 
 ## Deps
 
-* Node 7
-* Babel
+* Node 8
+* Babel (Babel Register)
 * ESLint
 * Nodemon
 * Yarn (optional)

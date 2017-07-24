@@ -1,6 +1,6 @@
 {
-  "name": "ncnca-db-transformer",
-  "version": "1.0.0",
+  "name": "bp-node-tool",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -29,6 +29,7 @@
     "babel-polyfill": "^6.9.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-2": "^6.24.1",
+    "babel-eslint": "^7.1.1",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.4.0",
@@ -36,11 +37,11 @@
     "nodemon": "^1.10.2"
   },
   "dependencies": {
-    "babel-eslint": "^7.1.1",
     "bluebird": "^3.5.0",
     "chalk": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
     "cross-env": "^5.0.1",
+    "joi": "^10.6.0",
     "rimraf": "^2.5.2"
   }
 }
